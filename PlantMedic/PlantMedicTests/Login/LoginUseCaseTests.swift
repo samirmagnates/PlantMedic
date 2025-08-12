@@ -10,7 +10,7 @@ import XCTest
 
 final class LoginUseCaseTests: XCTestCase {
     class MockAuthRepository: AuthRepositoryProtocol {
-        var shouldSucceed = true
+        nonisolated(unsafe) var shouldSucceed = true
 
         func login(email _: String, password _: String) async throws -> String {
             if shouldSucceed {
@@ -24,7 +24,7 @@ final class LoginUseCaseTests: XCTestCase {
     func testLoginSuccess() async throws {
         let mockRepo = MockAuthRepository()
         mockRepo.shouldSucceed = true
-        let useCase = LoginUseCase(repository: mockRepo)
+        let useCase = await LoginUseCase(repository: mockRepo)
 
         let result = try await useCase.execute(email: "test@example.com", password: "password123")
         XCTAssertEqual(result, "Mock Login Success")
@@ -33,7 +33,7 @@ final class LoginUseCaseTests: XCTestCase {
     func testLoginFailure() async {
         let mockRepo = MockAuthRepository()
         mockRepo.shouldSucceed = false
-        let useCase = LoginUseCase(repository: mockRepo)
+        let useCase = await LoginUseCase(repository: mockRepo)
 
         do {
             _ = try await useCase.execute(email: "test@example.com", password: "fail")
