@@ -36,10 +36,10 @@ jobs:
 
       # 🏗️ Build & test app with code coverage enabled
       - name: 🧪 Build & Run Tests with Xcode
-         run: |
-            WORKSPACE_PATH=$(find . -name "PlantMedic.xcworkspace" -type d | head -n 1)
-            echo "Found workspace at $WORKSPACE_PATH"
-            xcodebuild clean test \
+        run: |
+          WORKSPACE_PATH=$(find . -name "PlantMedic.xcworkspace" -type d | head -n 1)
+          echo "Found workspace at $WORKSPACE_PATH"
+          xcodebuild clean test \
             -workspace "$WORKSPACE_PATH" \
             -scheme PlantMedic \
             -sdk iphonesimulator \
