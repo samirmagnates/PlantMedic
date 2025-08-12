@@ -11,13 +11,16 @@ jobs:
     name: 🚀 Build, Lint, Test, Coverage & Security Scan
     runs-on: macos-latest
 
-    env:
-      DEVELOPER_DIR: /Applications/Xcode16.app/Contents/Developer
-
     steps:
       # 📦 Checkout code
       - name: 🧾 Checkout source
         uses: actions/checkout@v4
+
+      # 🎯 Setup Xcode
+      - name: 🎯 Setup Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest
 
       # 💎 Set up Ruby for CocoaPods
       - name: 💎 Setup Ruby (CocoaPods)
