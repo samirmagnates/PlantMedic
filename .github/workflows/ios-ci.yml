@@ -43,7 +43,7 @@ jobs:
             -workspace "$WORKSPACE_PATH" \
             -scheme PlantMedic \
             -sdk iphonesimulator \
-            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.0" \
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.2" \
             -enableCodeCoverage YES
 
       # 📤 Upload raw .xcresult test output (for Xcode or HTML viewer)
