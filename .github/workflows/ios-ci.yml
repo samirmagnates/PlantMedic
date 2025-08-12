@@ -36,13 +36,15 @@ jobs:
 
       # 🏗️ Build & test app with code coverage enabled
       - name: 🧪 Build & Run Tests with Xcode
-        run: |
-          xcodebuild clean test \
-          -workspace "/Users/samir/Desktop/Samir/MagnatesPlantApp/PlantMedicCI/PlantMedic/PlantMedic/PlantMedic.xcworkspace" \
-          -scheme PlantMedic \
-          -sdk iphonesimulator \
-          -destination "platform=iOS Simulator,name=iPhone 16,OS=18.0" \
-          -enableCodeCoverage YES
+         run: |
+            WORKSPACE_PATH=$(find . -name "PlantMedic.xcworkspace" -type d | head -n 1)
+            echo "Found workspace at $WORKSPACE_PATH"
+            xcodebuild clean test \
+            -workspace "$WORKSPACE_PATH" \
+            -scheme PlantMedic \
+            -sdk iphonesimulator \
+            -destination "platform=iOS Simulator,name=iPhone 16,OS=18.0" \
+            -enableCodeCoverage YES
 
       # 📤 Upload raw .xcresult test output (for Xcode or HTML viewer)
       - name: 📤 Upload Xcode Test Results
