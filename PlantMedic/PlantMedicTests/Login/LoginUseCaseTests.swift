@@ -37,7 +37,7 @@ final class LoginUseCaseTests: XCTestCase {
         let useCase = LoginUseCase(repository: mockRepo)
 
         do {
-            _ = try await useCase.execute(email: "", password: "fail")
+            _ = try await useCase.execute(email: "test@example.com", password: "fail")
             XCTFail("Expected failure")
         } catch {
             XCTAssertEqual(error.localizedDescription, "Mock failure")
