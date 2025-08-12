@@ -56,6 +56,7 @@ class LoginViewModel: ObservableObject {
         isPasswordVisible.toggle()
     }
 
+    @MainActor
     func login() async {
         emailError = nil
         passwordError = nil

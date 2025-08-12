@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 protocol AuthRepositoryProtocol {
     func login(email: String, password: String) async throws -> String
 }

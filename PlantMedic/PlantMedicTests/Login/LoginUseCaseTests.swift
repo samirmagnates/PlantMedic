@@ -5,15 +5,14 @@
 //  Created by Magnatesage  on 01/08/25.
 //
 
-import XCTest
 @testable import PlantMedic
+import XCTest
 
 final class LoginUseCaseTests: XCTestCase {
-
     class MockAuthRepository: AuthRepositoryProtocol {
         var shouldSucceed = true
 
-        func login(email: String, password: String) async throws -> String {
+        func login(email _: String, password _: String) async throws -> String {
             if shouldSucceed {
                 return "Mock Login Success"
             } else {
@@ -44,6 +43,7 @@ final class LoginUseCaseTests: XCTestCase {
         }
     }
 }
+
 /*
 
  class ItemDetailsViewController: UIViewController {
@@ -141,7 +141,6 @@ final class LoginUseCaseTests: XCTestCase {
  @IBAction func btnCustomNavigationClick(_ sender: UIButton) {
  modifireFlow(itemData1: selectedItem!)
  }
-
 
  func selectedMinimumModifirelist(inputCustomizer: [Customize])-> [Customize] {
  var array = [Customize]()
@@ -316,7 +315,6 @@ final class LoginUseCaseTests: XCTestCase {
  return
  }
  }
-
 
  //                if let selectedbox = selectedItem?.allBoxItems {
  //                    if selectedItem?.allBoxItems?.count ?? 0 <
@@ -502,7 +500,6 @@ final class LoginUseCaseTests: XCTestCase {
  break
  }
 
-
  switch itemDetailScreenType {
  case .forCartAdd:
  _progressBar.showProgressBar(uiView: self.view)
@@ -673,7 +670,6 @@ final class LoginUseCaseTests: XCTestCase {
 
  // SET BOX ITEMS IF BOX HAS DEFAULT ITEMS
  setBoxItemsDefaultItemsNotChange()
-
 
  //CHANGE RECURSIVE EDIT CODE
  let shrEntity = MealBundleSubEntityData(strMealId: subEntityData.strMealId,
@@ -1194,8 +1190,6 @@ final class LoginUseCaseTests: XCTestCase {
 
   vc.arrMealBundle = mealBundlelistData?.first?.bundles ?? []
 
-
-
   vc.arrMealBundle = mealBundlelistData?.first?.bundles ?? []
   self.navigationController?.show(vc, sender: nil)
   }
@@ -1206,7 +1200,6 @@ final class LoginUseCaseTests: XCTestCase {
  gotoSelectMealForCombo(recursiveData: nil)
  case .forComboRecusiveItemSelection(let data):
  gotoSelectMealForCombo(recursiveData: data)
-
 
  case .editCartItem(let cartData),.editBoosterItem(let cartData):
  // REMOVE ITEM FROM CART ACTION
@@ -1563,7 +1556,6 @@ final class LoginUseCaseTests: XCTestCase {
  self.btnCustmise.backgroundColor = ThemeColors.white.getColor
  self.btnCustmise.setTitleColor(ThemeColors.titleGryColorRBI.getColor, for: .selected)
 
-
  let lblInfoAttribute: [NSAttributedString.Key: Any] = [
  .font: UIFont.systemFont(ofSize: 14),
  .foregroundColor: ThemeColors.link.getColor,
@@ -1661,8 +1653,6 @@ final class LoginUseCaseTests: XCTestCase {
  let itemVariant = self.itemData.variants?.filter({arrayEntityGroups[groupToBeCheck].variant.contains($0.variantType ?? "")})
 
  let hasSelctedVariant = itemVariant?.contains(where: {$0.variantType == self.selectedItem?.selectedVarient?.variantType}) ?? false
-
-
 
  if hasSelctedVariant{
  attachmentObj.offerEntityGroupFrom = arrayEntityGroups[groupToBeCheck].entityGroupFrom
@@ -2286,9 +2276,7 @@ final class LoginUseCaseTests: XCTestCase {
 
  var tempData = comboObj.arrComboBundleItems?[currentSubItemIndex].arrSubItem ?? []
 
-
  tempData.append(.subItem(shrEntity))
-
 
  comboObj.arrComboBundleItems?[currentSubItemIndex].arrSubItem = tempData
 
@@ -2561,7 +2549,6 @@ final class LoginUseCaseTests: XCTestCase {
 
  self.pushToSelectOfferItemScreen(offerModel: offerModel,attachment: attachment, parentAttachment: parentAttachment)
 
-
  }else{
  self.view.alpha = 0.5
  self.showThemeAlertVC(type: .common(msg: "Sorry we are unable to proceed with this offer..")) { isSuccess in
@@ -2608,7 +2595,6 @@ final class LoginUseCaseTests: XCTestCase {
  }
 
  }
-
 
  private func showAttachment(attachments: [Attachment],parentAttachment:Attachment?) {
  var arrAttachentShowIn = [Attachment]()
@@ -2668,8 +2654,6 @@ final class LoginUseCaseTests: XCTestCase {
 
  }
  }
-
-
 
  //If Check attachment available in Restarurent or not if yes then
  // check Attachment available on curent Date range or not
@@ -2939,7 +2923,6 @@ final class LoginUseCaseTests: XCTestCase {
  }
  }
 
-
  }else if selectedItem?.selectedBoxItem?.count ?? 0 > 0 {
  var strSelected = ""
  var totlaCountedPriceAfterEdit : Double = 0
@@ -3036,7 +3019,6 @@ final class LoginUseCaseTests: XCTestCase {
  maxHeight = height
  }
  }
-
 
  }
  vwVarientHeight.constant = maxHeight
@@ -3339,7 +3321,6 @@ final class LoginUseCaseTests: XCTestCase {
   self.showAlert(errorMessage: "\(Global.alertMessageSomethingWentWrong) with meal selection", completion: nil)
   }
 
-
   }
   break
   case .forCartAddFromLoyalityWithOffers(_),.forEditOfferItemCustomiser(_, _, _),.forChangeOfferItem(_, _, _):
@@ -3351,7 +3332,6 @@ final class LoginUseCaseTests: XCTestCase {
   }
   break
   }
-
 
   pricePerItem = (itemPrice) + sumOfMods
   //        if itemPrice > 0{
@@ -3564,10 +3544,7 @@ final class LoginUseCaseTests: XCTestCase {
  self.selectedItem?.allBoxItems![boxItem.offset] = shrObj!
  }
 
-
  })
-
-
 
  }
  }
@@ -3659,7 +3636,6 @@ final class LoginUseCaseTests: XCTestCase {
  offersModel.selected_items?[currentDataFromBundleIndex].arrOfferItems = tempItems
  }
 
-
  case .apply:
  if let entityGroup =  offersModel.discount_apply?.entity_groups?.first(where: {$0.id == currentItemFromEntityGroup.entity_group_id}){
 
@@ -3721,7 +3697,6 @@ final class LoginUseCaseTests: XCTestCase {
  let action_type = entityGroup?.action_type ?? .item
 
  if let currentDataFromBundleIndex = offersModel.selected_items?.firstIndex(where: {$0.entity_group_id == offerSubItem.entity_group_id}){
-
 
  switch action_type{
  case .item:

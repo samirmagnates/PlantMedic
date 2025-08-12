@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class AuthAPIService {
     func performLogin(email: String, password: String) async throws -> String {
         guard let url = URL(string: "https://yourapi.com/login") else {
@@ -23,7 +24,8 @@ class AuthAPIService {
         let (data, response) = try await URLSession.shared.data(for: request)
 
         guard let httpResponse = response as? HTTPURLResponse,
-              200..<300 ~= httpResponse.statusCode else {
+              200 ..< 300 ~= httpResponse.statusCode
+        else {
             throw NSError(domain: "", code: 401, userInfo: [NSLocalizedDescriptionKey: "Invalid credentials."])
         }
 

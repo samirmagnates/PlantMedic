@@ -1,16 +1,20 @@
 PODS:
+  - SwiftFormat/CLI (0.57.2)
   - SwiftLint (0.59.1)
 
 DEPENDENCIES:
+  - SwiftFormat/CLI
   - SwiftLint (~> 0.59)
 
 SPEC REPOS:
   trunk:
+    - SwiftFormat
     - SwiftLint
 
 SPEC CHECKSUMS:
+  SwiftFormat: 7a87845c4d54d5c1600e46b4d2d02408aab3a129
   SwiftLint: 3d48e2fb2a3468fdaccf049e5e755df22fb40c2c
 
-PODFILE CHECKSUM: eac42a9e609ad3e8caeed42b93b6238f5ac7926c
+PODFILE CHECKSUM: b583e3f10bd3f1213fb03a3b37150cbe9aa8ee49
 
 COCOAPODS: 1.15.2

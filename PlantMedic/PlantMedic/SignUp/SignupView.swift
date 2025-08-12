@@ -1,5 +1,5 @@
 //
-//  SignUp.swift
+//  SignupView.swift
 //  PlantMedic
 //
 //  Created by Magnatesage  on 01/08/25.

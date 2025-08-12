@@ -9,7 +9,7 @@ import SwiftUI
 
 enum AppColors {
     static let background = Color("BackgroundColor") // define in Assets.xcassets
-    static let textPrimary = Color("TextPrimary")   // define in Assets.xcassets
+    static let textPrimary = Color("TextPrimary") // define in Assets.xcassets
     static let textSecondary = Color("TextSecondary") // define in Assets.xcassets
 
     // Or define using RGB directly if you don't want asset colors:
@@ -39,11 +39,11 @@ enum AppFontSizes {
 struct AppButton: View {
     let title: String
     let action: () -> Void
-    var backgroundColor: Color = Color.black
-    var foregroundColor: Color = Color.white
+    var backgroundColor: Color = .black
+    var foregroundColor: Color = .white
     var cornerRadius: CGFloat = 12
     var height: CGFloat = 48
-    var borderColor: Color?   // Optional border color
+    var borderColor: Color? // Optional border color
     var borderWidth: CGFloat = 1
 
     var body: some View {

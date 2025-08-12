@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct PlantMedicApp: App {
     var body: some Scene {
-            WindowGroup {
+        WindowGroup {
 //                let worker = LoginWorker()
 //                let interactor = LoginInteractor(worker: worker)
 //                let presenter = LoginPresenter()
@@ -22,9 +22,7 @@ struct PlantMedicApp: App {
 //                let presenter = WelcomePresenter()
 //                interactor.presenter = presenter
 //                return WelcomeView(presenter: presenter, interactor: interactor)
-                return SplashView()
-
-            }
-
+            SplashView()
+        }
     }
 }

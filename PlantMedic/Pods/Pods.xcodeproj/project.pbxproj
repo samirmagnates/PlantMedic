@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		1CD0618C486973D5588EF20D2E8C0AEA /* SwiftFormat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6B2B7DF197DF6A7CA487150557230A41 /* Build configuration list for PBXAggregateTarget "SwiftFormat" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftFormat;
+			productName = SwiftFormat;
+		};
 		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
@@ -20,56 +30,71 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		19E9EE69D4D8C342B7CB32D0E5BCC5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		0CEDAF8AE7892B45760E09FC97A50193 /* Pods-PlantMedic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D2726390065A9879CF32C23C12BA /* Pods-PlantMedic-dummy.m */; };
 		1F926F9A4FC45D27BFBD20A39E8F7BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		354DD9257B5183EA1167FC60D76DA667 /* Pods-PlantMedic-PlantMedicUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F5CEB252CF8E6EEAB0DF863399E81 /* Pods-PlantMedic-PlantMedicUITests-dummy.m */; };
+		2E63241454076B4D47E19E8F39E08C5B /* Pods-PlantMedic-PlantMedicUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F5CEB252CF8E6EEAB0DF863399E81 /* Pods-PlantMedic-PlantMedicUITests-dummy.m */; };
 		3905CA3169CCBF1DDDF3F593B913B1C8 /* Pods-PlantMedicTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1DEF3C854506A97A90593726F15393 /* Pods-PlantMedicTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A67AECA924921384C99A9B7C9C426DF /* Pods-PlantMedic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D2726390065A9879CF32C23C12BA /* Pods-PlantMedic-dummy.m */; };
-		5B4046EFB491C03B70995B3382DD3E24 /* Pods-PlantMedic-PlantMedicUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D57393E093D9439623EE44A30F2D99 /* Pods-PlantMedic-PlantMedicUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4372342553B64E98FB6893344D8D923D /* Pods-PlantMedic-PlantMedicUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D57393E093D9439623EE44A30F2D99 /* Pods-PlantMedic-PlantMedicUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5354EB1EF818E55EB0F5C996A6CB2B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A788DD5A2AE74B956B856EA82AC3E472 /* Pods-PlantMedic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D941057BA22EA6F9468F25FA6B16B6 /* Pods-PlantMedic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D30B5AB3FA4B47DC83C405D8A8D7FA40 /* Pods-PlantMedicTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24E2FC8F819A3CB8DF6347C3858B655 /* Pods-PlantMedicTests-dummy.m */; };
-		E55C560DBC09D759D67121E33CBF6F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		F190E2C48492462E6451E1CC1F1D2F4F /* Pods-PlantMedic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D941057BA22EA6F9468F25FA6B16B6 /* Pods-PlantMedic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AD2F27B1736F6E7FAE09D5DF397C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0893FEB734BB5729E35E46EF718F82F7 /* PBXContainerItemProxy */ = {
+		0100B495BB3A718D4E60DE97FA36180A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD0618C486973D5588EF20D2E8C0AEA;
+			remoteInfo = SwiftFormat;
+		};
+		21FAE7AC68A781820539E816E278FC0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
-		5E20EC6EEA288774D8061C487D384AF8 /* PBXContainerItemProxy */ = {
+		43182C04E59D573F38B187D4C16B8C6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
+			remoteGlobalIDString = 1CD0618C486973D5588EF20D2E8C0AEA;
+			remoteInfo = SwiftFormat;
 		};
-		6CD2FCD71D5A25852FF300CE21416B80 /* PBXContainerItemProxy */ = {
+		CFC35EB04A7151F1ED6E46CEBF8236F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EDBF04BED8696A9FF7BB3EC26471A1C6;
 			remoteInfo = "Pods-PlantMedic";
 		};
+		F9F007412C51C6EACFAF12735EF91443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085F1E7EC2C800801564BAC6A1CCF8E0 /* SwiftFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFormat.release.xcconfig; sourceTree = "<group>"; };
 		0A6F5CEB252CF8E6EEAB0DF863399E81 /* Pods-PlantMedic-PlantMedicUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlantMedic-PlantMedicUITests-dummy.m"; sourceTree = "<group>"; };
 		0A9888AD6221ECFA6437F7DAB455D73B /* Pods-PlantMedic-PlantMedicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlantMedic-PlantMedicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0E1DEF3C854506A97A90593726F15393 /* Pods-PlantMedicTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlantMedicTests-umbrella.h"; sourceTree = "<group>"; };
 		13D941057BA22EA6F9468F25FA6B16B6 /* Pods-PlantMedic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlantMedic-umbrella.h"; sourceTree = "<group>"; };
 		174CEA62B328542BD931B178BE859654 /* Pods-PlantMedicTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlantMedicTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C4618324F1A21970013C08FFDFF5728 /* Pods-PlantMedicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlantMedicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5810D5C227D57CF24E64C3880097BB /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		2FC6B1D123DDC3E10044C26634A52006 /* Pods_PlantMedicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlantMedicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		46B401D7EA938107A93F5CA4ABE4A0A5 /* Pods_PlantMedic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlantMedic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BDC9D734A1086E2EDC6B6D8E557FE1 /* SwiftFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFormat.debug.xcconfig; sourceTree = "<group>"; };
 		686C9DB1C9BF764636053FB7A1C30AD2 /* Pods-PlantMedic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlantMedic.release.xcconfig"; sourceTree = "<group>"; };
 		70FF20BA19162CE404AE5BF7B8DB4CEA /* Pods_PlantMedic_PlantMedicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlantMedic_PlantMedicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD634E5A612A60FB74FAC4B2D6C1161 /* Pods-PlantMedic-PlantMedicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlantMedic-PlantMedicUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		84954BCBE3AF32FFFE9487A9703EB3B7 /* Pods-PlantMedic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlantMedic-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B3F1328B9ACB9FE004D3604A9B70C71 /* Pods-PlantMedic-PlantMedicUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlantMedic-PlantMedicUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8EF860F75ECC1D969F0515CA7A3F1561 /* Pods-PlantMedic-PlantMedicUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlantMedic-PlantMedicUITests-Info.plist"; sourceTree = "<group>"; };
@@ -85,16 +110,17 @@
 		D01B93BB3450A31209EF5CC6E44089D3 /* Pods-PlantMedic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlantMedic-Info.plist"; sourceTree = "<group>"; };
 		D101D2726390065A9879CF32C23C12BA /* Pods-PlantMedic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlantMedic-dummy.m"; sourceTree = "<group>"; };
 		E24E2FC8F819A3CB8DF6347C3858B655 /* Pods-PlantMedicTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlantMedicTests-dummy.m"; sourceTree = "<group>"; };
+		ED482D20A3F2EF0BF6D78F3F998E5D3C /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		F28EF0785856F0A67858E4E8666D17E0 /* Pods-PlantMedic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlantMedic.modulemap"; sourceTree = "<group>"; };
 		FA7A85DB4B3C084A1612AF6FCD47556E /* Pods-PlantMedicTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlantMedicTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2271A63651E547058E84EABC5EE2F686 /* Frameworks */ = {
+		591ABFAEAC9DD4868C751D4BE631C43E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55C560DBC09D759D67121E33CBF6F6A /* Foundation.framework in Frameworks */,
+				E7AD2F27B1736F6E7FAE09D5DF397C25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,11 +132,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE88A26BD564571A287F701E0047C98D /* Frameworks */ = {
+		DE509243B8AAC696CEAD6B30AEA87920 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E9EE69D4D8C342B7CB32D0E5BCC5C1 /* Foundation.framework in Frameworks */,
+				5354EB1EF818E55EB0F5C996A6CB2B88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +153,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3CE74E18E214A3FE9C34446B045F0AD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED482D20A3F2EF0BF6D78F3F998E5D3C /* SwiftLint.debug.xcconfig */,
+				2B5810D5C227D57CF24E64C3880097BB /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
 		49A31FFFCADB433072FD7E562BE90FFF /* Pods-PlantMedicTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +177,14 @@
 			);
 			name = "Pods-PlantMedicTests";
 			path = "Target Support Files/Pods-PlantMedicTests";
+			sourceTree = "<group>";
+		};
+		4DDBE6707C958BE5A8A324CCEFC193EF /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				3CE74E18E214A3FE9C34446B045F0AD6 /* Support Files */,
+			);
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		53EDC1F35DEBF784413250701670D9F3 /* Pods-PlantMedic-PlantMedicUITests */ = {
@@ -169,22 +213,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+		8A0BDFAE11F73EFB936005F32975AE64 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
-			sourceTree = "<group>";
-		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+				C2ED518B232321B1FA183996AEBAC337 /* SwiftFormat */,
+				4DDBE6707C958BE5A8A324CCEFC193EF /* SwiftLint */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A69E3F1FF27C4A1CD2C303F40BF715E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BDC9D734A1086E2EDC6B6D8E557FE1 /* SwiftFormat.debug.xcconfig */,
+				085F1E7EC2C800801564BAC6A1CCF8E0 /* SwiftFormat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftFormat";
 			sourceTree = "<group>";
 		};
 		B068F710612AA598AE605742F4C69897 /* Pods-PlantMedic */ = {
@@ -203,12 +248,20 @@
 			path = "Target Support Files/Pods-PlantMedic";
 			sourceTree = "<group>";
 		};
+		C2ED518B232321B1FA183996AEBAC337 /* SwiftFormat */ = {
+			isa = PBXGroup;
+			children = (
+				A69E3F1FF27C4A1CD2C303F40BF715E3 /* Support Files */,
+			);
+			path = SwiftFormat;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				8A0BDFAE11F73EFB936005F32975AE64 /* Pods */,
 				5471832A983A9BC5E6638435BF473BAC /* Products */,
 				24301627FE0431BD04D4EE09D28E180D /* Targets Support Files */,
 			);
@@ -222,14 +275,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
-			);
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +286,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1318072ED4BD591EC1D55DF806491C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4372342553B64E98FB6893344D8D923D /* Pods-PlantMedic-PlantMedicUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B7A3A32F1A471F661F12BF7A62D61C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,19 +302,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82868E407CCF61FEBB175A9BB6902E6A /* Headers */ = {
+		A1C43F4AA4FE0244ECB7A308D5EF627C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4046EFB491C03B70995B3382DD3E24 /* Pods-PlantMedic-PlantMedicUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		947CE8CB5BEDEC651A0DFDD0B70DBF11 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F190E2C48492462E6451E1CC1F1D2F4F /* Pods-PlantMedic-umbrella.h in Headers */,
+				A788DD5A2AE74B956B856EA82AC3E472 /* Pods-PlantMedic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,17 +315,18 @@
 /* Begin PBXNativeTarget section */
 		D282BA6C49A86554D14F27B1FA534D84 /* Pods-PlantMedic-PlantMedicUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D2741662920F7D13A18D8CEDF6B7A5F /* Build configuration list for PBXNativeTarget "Pods-PlantMedic-PlantMedicUITests" */;
+			buildConfigurationList = 057E5B280BD504AD0B36ADCB0BBD491B /* Build configuration list for PBXNativeTarget "Pods-PlantMedic-PlantMedicUITests" */;
 			buildPhases = (
-				82868E407CCF61FEBB175A9BB6902E6A /* Headers */,
-				BDCE322F8F44C0008E61BACBB4BCF22B /* Sources */,
-				2271A63651E547058E84EABC5EE2F686 /* Frameworks */,
-				AAC3661076AEEF10564E73A9589D0C6F /* Resources */,
+				1318072ED4BD591EC1D55DF806491C21 /* Headers */,
+				AD9D03880599735176EB06096CA72BD4 /* Sources */,
+				DE509243B8AAC696CEAD6B30AEA87920 /* Frameworks */,
+				7112BA00B85C8EF907A9D59100FA67CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F56522063D718BD348DEDB5C00E3D1D /* PBXTargetDependency */,
+				FC1ACC516FEFF7EC1630DC86D5BB7E38 /* PBXTargetDependency */,
+				A364CB11FFFBD0F9D868E415A72F270D /* PBXTargetDependency */,
 			);
 			name = "Pods-PlantMedic-PlantMedicUITests";
 			productName = Pods_PlantMedic_PlantMedicUITests;
@@ -289,17 +335,18 @@
 		};
 		EDBF04BED8696A9FF7BB3EC26471A1C6 /* Pods-PlantMedic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF5C05B99CED85EF7B1C0274A195199 /* Build configuration list for PBXNativeTarget "Pods-PlantMedic" */;
+			buildConfigurationList = BAC6844D98AA8AAE88528E9DCAEC66CD /* Build configuration list for PBXNativeTarget "Pods-PlantMedic" */;
 			buildPhases = (
-				947CE8CB5BEDEC651A0DFDD0B70DBF11 /* Headers */,
-				B1205ED5FD3E5D4A5C51F4D91C446D55 /* Sources */,
-				EE88A26BD564571A287F701E0047C98D /* Frameworks */,
-				263D2D8102921D0665A83AB93EEA8C7F /* Resources */,
+				A1C43F4AA4FE0244ECB7A308D5EF627C /* Headers */,
+				34464A7EB6CF04D668ECF172479594C1 /* Sources */,
+				591ABFAEAC9DD4868C751D4BE631C43E /* Frameworks */,
+				DFE8E0A241DB3297C790F6AF9FBB8624 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5B3D6742CA8A994DFA22E691060F768 /* PBXTargetDependency */,
+				A9876D093E266D42D1595FA04CFA1149 /* PBXTargetDependency */,
+				1A007EBA73B1D879C32A35255635D881 /* PBXTargetDependency */,
 			);
 			name = "Pods-PlantMedic";
 			productName = Pods_PlantMedic;
@@ -318,7 +365,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EC45039402A4BD45CD2E68C6BB2EF4D /* PBXTargetDependency */,
+				DEA9D22FF3D52148E2B4ED6455F56BB6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PlantMedicTests";
 			productName = Pods_PlantMedicTests;
@@ -350,6 +397,7 @@
 				EDBF04BED8696A9FF7BB3EC26471A1C6 /* Pods-PlantMedic */,
 				D282BA6C49A86554D14F27B1FA534D84 /* Pods-PlantMedic-PlantMedicUITests */,
 				F5FCB7C8C300D27287DDFEEA3BA02ED3 /* Pods-PlantMedicTests */,
+				1CD0618C486973D5588EF20D2E8C0AEA /* SwiftFormat */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
@@ -363,14 +411,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		263D2D8102921D0665A83AB93EEA8C7F /* Resources */ = {
+		7112BA00B85C8EF907A9D59100FA67CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAC3661076AEEF10564E73A9589D0C6F /* Resources */ = {
+		DFE8E0A241DB3297C790F6AF9FBB8624 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,6 +428,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		34464A7EB6CF04D668ECF172479594C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEDAF8AE7892B45760E09FC97A50193 /* Pods-PlantMedic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71DCD1BFCD9FA16A0EBDBF86A091A55C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,49 +444,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1205ED5FD3E5D4A5C51F4D91C446D55 /* Sources */ = {
+		AD9D03880599735176EB06096CA72BD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A67AECA924921384C99A9B7C9C426DF /* Pods-PlantMedic-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDCE322F8F44C0008E61BACBB4BCF22B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				354DD9257B5183EA1167FC60D76DA667 /* Pods-PlantMedic-PlantMedicUITests-dummy.m in Sources */,
+				2E63241454076B4D47E19E8F39E08C5B /* Pods-PlantMedic-PlantMedicUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F56522063D718BD348DEDB5C00E3D1D /* PBXTargetDependency */ = {
+		1A007EBA73B1D879C32A35255635D881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 5E20EC6EEA288774D8061C487D384AF8 /* PBXContainerItemProxy */;
+			targetProxy = 21FAE7AC68A781820539E816E278FC0C /* PBXContainerItemProxy */;
 		};
-		8EC45039402A4BD45CD2E68C6BB2EF4D /* PBXTargetDependency */ = {
+		A364CB11FFFBD0F9D868E415A72F270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = F9F007412C51C6EACFAF12735EF91443 /* PBXContainerItemProxy */;
+		};
+		A9876D093E266D42D1595FA04CFA1149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftFormat;
+			target = 1CD0618C486973D5588EF20D2E8C0AEA /* SwiftFormat */;
+			targetProxy = 43182C04E59D573F38B187D4C16B8C6E /* PBXContainerItemProxy */;
+		};
+		DEA9D22FF3D52148E2B4ED6455F56BB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PlantMedic";
 			target = EDBF04BED8696A9FF7BB3EC26471A1C6 /* Pods-PlantMedic */;
-			targetProxy = 6CD2FCD71D5A25852FF300CE21416B80 /* PBXContainerItemProxy */;
+			targetProxy = CFC35EB04A7151F1ED6E46CEBF8236F6 /* PBXContainerItemProxy */;
 		};
-		B5B3D6742CA8A994DFA22E691060F768 /* PBXTargetDependency */ = {
+		FC1ACC516FEFF7EC1630DC86D5BB7E38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 0893FEB734BB5729E35E46EF718F82F7 /* PBXContainerItemProxy */;
+			name = SwiftFormat;
+			target = 1CD0618C486973D5588EF20D2E8C0AEA /* SwiftFormat */;
+			targetProxy = 0100B495BB3A718D4E60DE97FA36180A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		183ED5F21F2993065730D2EE17F16ADF /* Release */ = {
+		03C9F1D95E8E3F40C350CC97ECABDD85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 686C9DB1C9BF764636053FB7A1C30AD2 /* Pods-PlantMedic.release.xcconfig */;
+			baseConfigurationReference = 0A9888AD6221ECFA6437F7DAB455D73B /* Pods-PlantMedic-PlantMedicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -442,7 +502,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic-PlantMedicUITests/Pods-PlantMedic-PlantMedicUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +511,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic-PlantMedicUITests/Pods-PlantMedic-PlantMedicUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -503,64 +563,9 @@
 			};
 			name = Debug;
 		};
-		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
+		24000240674CC3798D719B474D5864C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2A29FFB56EFE7D4925CE9B1C9F94349D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0852A889415C80AFC31B4232967F3C /* Pods-PlantMedic.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2DA7784DEA667F180EE122FF4ACEAE83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A9888AD6221ECFA6437F7DAB455D73B /* Pods-PlantMedic-PlantMedicUITests.release.xcconfig */;
+			baseConfigurationReference = 7BD634E5A612A60FB74FAC4B2D6C1161 /* Pods-PlantMedic-PlantMedicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -590,11 +595,45 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5810D5C227D57CF24E64C3880097BB /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
 			name = Release;
+		};
+		341FF2FB3C491D773434367650E7F940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BDC9D734A1086E2EDC6B6D8E557FE1 /* SwiftFormat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		9AE0FD0C5F002F2B15B7F021D2B735FB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -762,9 +801,27 @@
 			};
 			name = Debug;
 		};
-		D9C56B5E25DD05B1B4837632B0E0B42B /* Debug */ = {
+		E0D8F498909A462170D2F02A830F98DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BD634E5A612A60FB74FAC4B2D6C1161 /* Pods-PlantMedic-PlantMedicUITests.debug.xcconfig */;
+			baseConfigurationReference = 085F1E7EC2C800801564BAC6A1CCF8E0 /* SwiftFormat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1693C48A1C9E39420FC622BD9D23C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686C9DB1C9BF764636053FB7A1C30AD2 /* Pods-PlantMedic.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -776,7 +833,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic-PlantMedicUITests/Pods-PlantMedic-PlantMedicUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -785,7 +842,62 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic-PlantMedicUITests/Pods-PlantMedic-PlantMedicUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E1A48A750B946DE9877594C6E735E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED482D20A3F2EF0BF6D78F3F998E5D3C /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7604C6FAE8EE5EFF24289E7C0E6787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0852A889415C80AFC31B4232967F3C /* Pods-PlantMedic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlantMedic/Pods-PlantMedic.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -799,26 +911,18 @@
 			};
 			name = Debug;
 		};
-		E9E1A48A750B946DE9877594C6E735E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		057E5B280BD504AD0B36ADCB0BBD491B /* Build configuration list for PBXNativeTarget "Pods-PlantMedic-PlantMedicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24000240674CC3798D719B474D5864C9 /* Debug */,
+				03C9F1D95E8E3F40C350CC97ECABDD85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		061ABF43B51C6829EA07BD1D10F30AE3 /* Build configuration list for PBXNativeTarget "Pods-PlantMedicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -837,11 +941,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D2741662920F7D13A18D8CEDF6B7A5F /* Build configuration list for PBXNativeTarget "Pods-PlantMedic-PlantMedicUITests" */ = {
+		6B2B7DF197DF6A7CA487150557230A41 /* Build configuration list for PBXAggregateTarget "SwiftFormat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9C56B5E25DD05B1B4837632B0E0B42B /* Debug */,
-				2DA7784DEA667F180EE122FF4ACEAE83 /* Release */,
+				341FF2FB3C491D773434367650E7F940 /* Debug */,
+				E0D8F498909A462170D2F02A830F98DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -855,11 +959,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFF5C05B99CED85EF7B1C0274A195199 /* Build configuration list for PBXNativeTarget "Pods-PlantMedic" */ = {
+		BAC6844D98AA8AAE88528E9DCAEC66CD /* Build configuration list for PBXNativeTarget "Pods-PlantMedic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A29FFB56EFE7D4925CE9B1C9F94349D /* Debug */,
-				183ED5F21F2993065730D2EE17F16ADF /* Release */,
+				FF7604C6FAE8EE5EFF24289E7C0E6787 /* Debug */,
+				E1693C48A1C9E39420FC622BD9D23C66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
