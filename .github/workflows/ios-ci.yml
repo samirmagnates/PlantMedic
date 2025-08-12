@@ -38,11 +38,11 @@ jobs:
       - name: 🧪 Build & Run Tests with Xcode
         run: |
           xcodebuild clean test \
-            -workspace PlantMedic.xcworkspace \
-            -scheme PlantMedic \
-            -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.0' \
-            -enableCodeCoverage YES
+          -workspace "/Users/samir/Desktop/Samir/MagnatesPlantApp/PlantMedicCI/PlantMedic/PlantMedic/PlantMedic.xcworkspace" \
+          -scheme PlantMedic \
+          -sdk iphonesimulator \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=18.0" \
+          -enableCodeCoverage YES
 
       # 📤 Upload raw .xcresult test output (for Xcode or HTML viewer)
       - name: 📤 Upload Xcode Test Results
