@@ -1,0 +1,29 @@
+#https://novinfard.medium.com/swiftlint-in-use-279f44b3182e
+#https://gist.github.com/novinfard/7cb0d12093bc8e2c8b7a646897eea908
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_whitespace
+  - force_cast
+
+opt_in_rules: # only rules listed here are run (others ignored)
+  - implicit_return
+
+included: # Paths to include in linting
+
+excluded: # Paths to ignore during linting (like Pods folder)
+  - Pods
+  - Carthage
+
+line_length: # Rule customization example
+  warning: 120
+  error: 200
+  ignores_comments: true
+  ignores_urls: true
+
+file_length: 200
+
+function_body_length: 50
+
+function_parameter_count:
+    warning: 10
+    error: 20
+reporter: "xcode" # Output format (xcode, json, csv, checkstyle)
